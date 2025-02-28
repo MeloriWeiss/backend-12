@@ -1,0 +1,6 @@
+@Backend_lection_EF_HostAddress = http://localhost:5179
+
+GET {{Backend_lection_EF_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
