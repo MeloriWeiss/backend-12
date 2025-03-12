@@ -2,7 +2,6 @@
 using Backend_lection_EF.Models;
 using Backend_lection_EF.Models.Data;
 using Microsoft.AspNetCore.Mvc;
-using Exception = System.Exception;
 
 namespace Backend_lection_EF.Controllers;
 
@@ -10,18 +9,18 @@ namespace Backend_lection_EF.Controllers;
 [ApiController]
 // создаём роут (адрес в url-строке), на который будут поступать запросы
 // атрибут [action] означает название метода
-[Route("api/[action]")]
-public class AppController : ControllerBase
+[Route("api/[controller]")]
+public class CrudController : ControllerBase
 {
     private readonly AppDbContext _dbContext;
 
     // с помощью Dependency Injection получаем экземпляр контекста базы данных
-    public AppController(AppDbContext dbContext)
+    public CrudController(AppDbContext dbContext)
     {
         _dbContext = dbContext;
     }
 
-    // осуществляем обработку POST-запроса по адресу api/AddAntity
+    // осуществляем обработку POST-запроса по адресу api/Crud
     [HttpPost]
     public IActionResult AddEntity([FromBody] CreateEntityRequest request)
     {
@@ -43,7 +42,7 @@ public class AppController : ControllerBase
         }
     }
 
-    // осуществляем обработку GET-запроса по адресу api/GetEntities
+    // осуществляем обработку GET-запроса по адресу api/Crud
     [HttpGet]
     public IActionResult GetEntities()
     {
@@ -63,7 +62,7 @@ public class AppController : ControllerBase
         }
     }
     
-    // осуществляем обработку GET-запроса по адресу api/GetEntity/{id}
+    // осуществляем обработку GET-запроса по адресу api/Crud/{id}
     // если бы в атрибуте HttpGet мы не указывали {id:int}, и оставили бы 'int id' в параметрах метода, то id брался бы из query-параметров
     // так же мы ставим ограничение на то, что id должен быть int, чтобы запрос отработал
     [HttpGet("{id:int}")]
