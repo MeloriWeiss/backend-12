@@ -2,6 +2,7 @@
 using Backend_lection_EF.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -10,9 +11,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Backend_lection_EF.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250330081557_second")]
+    partial class second
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -40,26 +43,6 @@ namespace Backend_lection_EF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Entities");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Мария",
-                            Surname = "Волжанова"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Иван",
-                            Surname = "Остапов"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Владимир",
-                            Surname = "Волновой"
-                        });
                 });
 #pragma warning restore 612, 618
         }

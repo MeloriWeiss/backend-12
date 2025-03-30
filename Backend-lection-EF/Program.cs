@@ -37,14 +37,14 @@ if (app.Environment.IsDevelopment())
 // чтобы не создавать контроллеры, мы можем создать роуты через Map, на которые будут приходить запросы
 // при этом можем так же писать логику, которая будет выполняться при обращении
 // некоторые примеры роутов:
-app.Map("/about", () => "About page");
-app.MapPost("/user", () => "Name");
-// можем указывать параметры
-app.MapPost("/user/{id}", (string id) => $"Name of user {id}");
-// можем создавать ограничения на параметры (при неправильных параметрах будет выдаваться либо 404 ошибка, либо выполняться роут по умолчанию)
-app.MapPost("/car/{id:range(10, 15)}", (int id) => $"Name of user {id}");
-// можем делать параметры необязательными
-app.MapPost("/admin/{id?}", (string? id) => id is not null ? $"Name of user {id}" : "");
+// app.Map("/about", () => "About page");
+// app.MapPost("/user", () => "Name");
+// // можем указывать параметры
+// app.MapPost("/user/{id}", (string id) => $"Name of user {id}");
+// // можем создавать ограничения на параметры (при неправильных параметрах будет выдаваться либо 404 ошибка, либо выполняться роут по умолчанию)
+// app.MapPost("/car/{id:range(10, 15)}", (int id) => $"Name of user {id}");
+// // можем делать параметры необязательными
+// app.MapPost("/admin/{id?}", (string? id) => id is not null ? $"Name of user {id}" : "");
 
 app.UseHttpsRedirection();
 
