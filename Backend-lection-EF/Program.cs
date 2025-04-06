@@ -8,30 +8,46 @@ builder.Services.AddOpenApi();
 
 builder.Services.AddSwaggerGen();
 
+var MainPolicy = "_mainPolicy";
 builder.Services.AddCors(options =>
 {
-    // добавляем настройки Cors для приложения
+    // добавляем настройки Cors для приложения по умолчанию
     options.AddDefaultPolicy(policy =>
     {
         // указываем адреса, с которых мы сможем выполнять запросы к нашему источнику
         policy.WithOrigins("http://localhost:4200");
-        policy.WithOrigins("http://localhost:5173");
-        // разрешаем использовать заголовки запросов
+        // policy.WithOrigins("http://localhost:5173");
+        // разрешаем использовать все заголовки запросов
         policy.AllowAnyHeader();
-        // разрешаем использовать методы
+        // разрешаем использовать все методы запросов
         policy.AllowAnyMethod();
     });
+    
+    // добавляем настройки Cors для приложения с именем
+    options.AddPolicy(name: MainPolicy,
+        policy =>
+        {
+            // указываем адреса, с которых мы сможем выполнять запросы к нашему источнику
+            policy.WithOrigins("http://localhost:4200");
+            policy.WithOrigins("http://localhost:5173");
+            // разрешаем использовать все заголовки запросов (можно указать конкретные через WithHeaders)
+            policy.AllowAnyHeader();
+            // разрешаем использовать все методы запросов (можно указать конкретные через WithMethods)
+            policy.AllowAnyMethod();
+        });
 });
+// также перед методом или контроллером можно использовать атрибут [EnableCors("{имя политики}")],
+// чтобы активировать cors для конкретного метода или контроллера,
+// однако не рекомендуется использовать политику, применённую и черзе middleware, и через атрибуты, потому что будут
+// применены сразу обе политики
+// отключать cors для метода или контроллера можно при помощи атрибута [DisableCors]
 
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/openapi/v1.json", "v1");
-    });
+    app.UseSwaggerUI(options => { options.SwaggerEndpoint("/openapi/v1.json", "v1"); });
 }
 
 // чтобы не создавать контроллеры, мы можем создать роуты через Map, на которые будут приходить запросы
@@ -48,7 +64,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-// добавляем политику Cors в приложение
-app.UseCors();
+// добавляем политику Cors в приложение с указанием названия, тем самым активируя cors middleware
+// если ничего не передавать в параметры UseCors, то будет использоваться указанная политика по умолчанию
+app.UseCors(MainPolicy);
 app.MapControllers();
 app.Run();

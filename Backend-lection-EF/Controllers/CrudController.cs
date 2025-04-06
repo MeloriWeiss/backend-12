@@ -1,6 +1,7 @@
 ﻿using Backend_lection_EF.Contracts.Entities;
 using Backend_lection_EF.Models;
 using Backend_lection_EF.Models.Data;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Backend_lection_EF.Controllers;
@@ -44,6 +45,7 @@ public class CrudController : ControllerBase
 
     // осуществляем обработку GET-запроса по адресу api/Entity
     [HttpGet]
+    [DisableCors]
     public IActionResult GetEntities()
     {
         // пытаемся выполнить операцию с базой данных
