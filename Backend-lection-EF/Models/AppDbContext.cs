@@ -5,14 +5,24 @@ namespace Backend_lection_EF.Models;
 
 public class AppDbContext : DbContext
 {
+    private readonly IConfiguration _configuration;
     public DbSet<Entity> Entities { get; set; }
+
+    public AppDbContext(IConfiguration configuration)
+    {
+        _configuration = configuration;
+    }
 
     // реализуем контекст базы данных, с которым будем работать во всём приложении
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
+        var baseConnectionString = _configuration.GetConnectionString("Database");
+        var password = Environment.GetEnvironmentVariable("DB_PASSWORD");
+        var connectionString = baseConnectionString?.Replace("password", password);
+
         optionsBuilder
             // задаём строку подключения
-            .UseNpgsql("Host=localhost;Port=5432;Database=TestBackend;Username=postgres;Password=postgres;");
+            .UseNpgsql(_configuration.GetConnectionString("Database"));
         // создаём сид (заполнение базы данных демонстрационными данными)
         // .UseSeeding((context, _) =>
         // {

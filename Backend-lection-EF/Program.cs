@@ -6,6 +6,16 @@ builder.Services.AddDbContext<AppDbContext>();
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
+builder.Configuration
+        // указываем путь к файлу json
+    .SetBasePath(Directory.GetCurrentDirectory())
+        // добавляем файл, делая его обязательным
+        // (если не найдётся, то будет выброшено исключение) и чувствительным к изменениям
+        // (приложение будет реагировать на изменения без перезапуска)
+    .AddJsonFile("config.json", false, true)
+        // добавим поддержку переменных среды для получения через IConfiguration
+    .AddEnvironmentVariables();
+
 builder.Services.AddSwaggerGen();
 
 var MainPolicy = "_mainPolicy";
