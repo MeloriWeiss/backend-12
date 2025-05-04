@@ -1,8 +1,23 @@
 using Backend_lection_EF.Models;
+using Backend_lection_EF.Services;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+// Добавляем использование внутреннего кэша
+builder.Services.AddMemoryCache();
 
 builder.Services.AddDbContext<AppDbContext>();
+
+// конфигурируем sql server для кэша
+builder.Services.AddDistributedSqlServerCache(options =>
+{
+    options.ConnectionString = builder.Configuration.GetConnectionString("CacheDatabase");
+    options.SchemaName = "dbo";
+    options.TableName = "CacheTable";
+    // время истечения кэша по умолчанию (скользящего)
+    options.DefaultSlidingExpiration = TimeSpan.FromMinutes(5);
+});
+
 builder.Services.AddControllers();
 builder.Services.AddOpenApi();
 
@@ -15,6 +30,19 @@ builder.Configuration
     .AddJsonFile("config.json", false, true)
         // добавим поддержку переменных среды для получения через IConfiguration
     .AddEnvironmentVariables();
+
+Log.Logger = new LoggerConfiguration()
+    // настриваем минимальный уровень логирования
+    .MinimumLevel.Debug()
+    // логируем в консоль
+    .WriteTo.Console()
+    // одновременно делаем запись в файл, при этом каждый день будет создаваться новый файл с датой в названии
+    .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
+    // создаём логгер
+    .CreateLogger();
+
+// используем serilog в качестве логгера
+builder.Host.UseSerilog();
 
 builder.Services.AddSwaggerGen();
 
