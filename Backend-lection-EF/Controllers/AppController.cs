@@ -88,6 +88,15 @@ public class AppController : ControllerBase
         }
     }
 
+    [HttpGet("{fileName}")]
+    public IActionResult GetCss(string fileName)
+    {
+        var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "css", fileName);
+        if (!System.IO.File.Exists(path))
+            return NotFound();
+        return PhysicalFile(path, "text/css");
+    }
+
     // осуществляем обработку GET-запроса по адресу api/GetEntity/{id}
     // если бы в атрибуте HttpGet мы не указывали {id:int}, и оставили бы 'int id' в параметрах метода, то id брался бы из query-параметров
     // так же мы ставим ограничение на то, что id должен быть int, чтобы запрос отработал

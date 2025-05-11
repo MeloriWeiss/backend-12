@@ -100,6 +100,8 @@ if (app.Environment.IsDevelopment())
 // // можем делать параметры необязательными
 // app.MapPost("/admin/{id?}", (string? id) => id is not null ? $"Name of user {id}" : "");
 
+app.UseStaticFiles();
+
 app.UseHttpsRedirection();
 
 // добавляем политику Cors в приложение с указанием названия, тем самым активируя cors middleware

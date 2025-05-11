@@ -1,0 +1,560 @@
+2025-05-11 09:48:52.014 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-11 09:48:52.251 +03:00 [DBG] Hosting starting
+2025-05-11 09:48:52.544 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-11 09:48:52.550 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-11 09:48:52.715 +03:00 [INF] Now listening on: http://localhost:5179
+2025-05-11 09:48:52.716 +03:00 [DBG] Loaded hosting startup assembly Backend-lection-EF
+2025-05-11 09:48:52.719 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 09:48:52.722 +03:00 [INF] Hosting environment: Development
+2025-05-11 09:48:52.724 +03:00 [INF] Content root path: C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF
+2025-05-11 09:48:52.725 +03:00 [DBG] Hosting started
+2025-05-11 09:48:54.765 +03:00 [DBG] Connection id "0HNCGAVIS13KN" accepted.
+2025-05-11 09:48:54.794 +03:00 [DBG] Connection id "0HNCGAVIS13KN" started.
+2025-05-11 09:48:54.796 +03:00 [DBG] Connection id "0HNCGAVIS13KO" accepted.
+2025-05-11 09:48:54.815 +03:00 [DBG] Connection id "0HNCGAVIS13KO" started.
+2025-05-11 09:48:54.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/ - null null
+2025-05-11 09:48:54.950 +03:00 [DBG] No candidates found for the request path '/'
+2025-05-11 09:48:54.953 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:48:54.969 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:48:54.971 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-11 09:48:55.003 +03:00 [DBG] Connection id "0HNCGAVIS13KO" completed keep alive response.
+2025-05-11 09:48:55.020 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/ - 404 0 null 140.5553ms
+2025-05-11 09:48:55.038 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/, Response status code: 404
+2025-05-11 09:48:58.801 +03:00 [DBG] Connection id "0HNCGAVIS13KO" received FIN.
+2025-05-11 09:48:58.801 +03:00 [DBG] Connection id "0HNCGAVIS13KN" received FIN.
+2025-05-11 09:48:58.813 +03:00 [DBG] Connection id "0HNCGAVIS13KN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:48:58.813 +03:00 [DBG] Connection id "0HNCGAVIS13KO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:48:58.819 +03:00 [DBG] Connection id "0HNCGAVIS13KN" disconnecting.
+2025-05-11 09:48:58.822 +03:00 [DBG] Connection id "0HNCGAVIS13KO" disconnecting.
+2025-05-11 09:48:58.826 +03:00 [DBG] Connection id "0HNCGAVIS13KN" stopped.
+2025-05-11 09:48:58.826 +03:00 [DBG] Connection id "0HNCGAVIS13KO" stopped.
+2025-05-11 09:49:04.881 +03:00 [DBG] Connection id "0HNCGAVIS13KP" accepted.
+2025-05-11 09:49:04.883 +03:00 [DBG] Connection id "0HNCGAVIS13KP" started.
+2025-05-11 09:49:04.883 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" accepted.
+2025-05-11 09:49:04.890 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" started.
+2025-05-11 09:49:04.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - null null
+2025-05-11 09:49:04.962 +03:00 [DBG] No candidates found for the request path '/Images/Products/product-1.png'
+2025-05-11 09:49:04.964 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:49:04.966 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:49:04.968 +03:00 [DBG] Connection id "0HNCGAVIS13KP" completed keep alive response.
+2025-05-11 09:49:04.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - 404 0 null 72.2534ms
+2025-05-11 09:49:04.974 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/Images/Products/product-1.png, Response status code: 404
+2025-05-11 09:49:08.812 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" received FIN.
+2025-05-11 09:49:08.812 +03:00 [DBG] Connection id "0HNCGAVIS13KP" received FIN.
+2025-05-11 09:49:08.814 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" disconnecting.
+2025-05-11 09:49:08.815 +03:00 [DBG] Connection id "0HNCGAVIS13KP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:49:08.817 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:49:08.819 +03:00 [DBG] Connection id "0HNCGAVIS13KP" disconnecting.
+2025-05-11 09:49:08.832 +03:00 [DBG] Connection id "0HNCGAVIS13KQ" stopped.
+2025-05-11 09:49:08.862 +03:00 [DBG] Connection id "0HNCGAVIS13KP" stopped.
+2025-05-11 09:50:02.092 +03:00 [DBG] Connection id "0HNCGAVIS13KR" accepted.
+2025-05-11 09:50:02.094 +03:00 [DBG] Connection id "0HNCGAVIS13KR" started.
+2025-05-11 09:50:02.094 +03:00 [DBG] Connection id "0HNCGAVIS13KS" accepted.
+2025-05-11 09:50:02.096 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - null null
+2025-05-11 09:50:02.099 +03:00 [DBG] Connection id "0HNCGAVIS13KS" started.
+2025-05-11 09:50:02.105 +03:00 [DBG] No candidates found for the request path '/Images/Products/product-1.png'
+2025-05-11 09:50:02.107 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:50:02.110 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:50:02.113 +03:00 [DBG] Connection id "0HNCGAVIS13KR" completed keep alive response.
+2025-05-11 09:50:02.116 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - 404 0 null 19.3249ms
+2025-05-11 09:50:02.120 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/Images/Products/product-1.png, Response status code: 404
+2025-05-11 09:50:03.494 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - null null
+2025-05-11 09:50:03.498 +03:00 [DBG] No candidates found for the request path '/Images/Products/product-1.png'
+2025-05-11 09:50:03.501 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:50:03.502 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:50:03.504 +03:00 [DBG] Connection id "0HNCGAVIS13KR" completed keep alive response.
+2025-05-11 09:50:03.507 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Images/Products/product-1.png - 404 0 null 13.0321ms
+2025-05-11 09:50:03.513 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/Images/Products/product-1.png, Response status code: 404
+2025-05-11 09:50:08.935 +03:00 [DBG] Connection id "0HNCGAVIS13KR" received FIN.
+2025-05-11 09:50:08.935 +03:00 [DBG] Connection id "0HNCGAVIS13KS" received FIN.
+2025-05-11 09:50:08.938 +03:00 [DBG] Connection id "0HNCGAVIS13KR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:08.945 +03:00 [DBG] Connection id "0HNCGAVIS13KS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:08.955 +03:00 [DBG] Connection id "0HNCGAVIS13KR" disconnecting.
+2025-05-11 09:50:08.957 +03:00 [DBG] Connection id "0HNCGAVIS13KS" disconnecting.
+2025-05-11 09:50:08.958 +03:00 [DBG] Connection id "0HNCGAVIS13KR" stopped.
+2025-05-11 09:50:08.959 +03:00 [DBG] Connection id "0HNCGAVIS13KS" stopped.
+2025-05-11 09:50:09.874 +03:00 [DBG] Connection id "0HNCGAVIS13KT" accepted.
+2025-05-11 09:50:09.875 +03:00 [DBG] Connection id "0HNCGAVIS13KT" started.
+2025-05-11 09:50:09.876 +03:00 [DBG] Connection id "0HNCGAVIS13KU" accepted.
+2025-05-11 09:50:09.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/wwwroot/Images/Products/product-1.png - null null
+2025-05-11 09:50:09.879 +03:00 [DBG] Connection id "0HNCGAVIS13KU" started.
+2025-05-11 09:50:09.882 +03:00 [DBG] No candidates found for the request path '/wwwroot/Images/Products/product-1.png'
+2025-05-11 09:50:09.885 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:50:09.887 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:50:09.889 +03:00 [DBG] Connection id "0HNCGAVIS13KT" completed keep alive response.
+2025-05-11 09:50:09.895 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/wwwroot/Images/Products/product-1.png - 404 0 null 17.1143ms
+2025-05-11 09:50:09.900 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/wwwroot/Images/Products/product-1.png, Response status code: 404
+2025-05-11 09:50:18.956 +03:00 [DBG] Connection id "0HNCGAVIS13KU" received FIN.
+2025-05-11 09:50:18.956 +03:00 [DBG] Connection id "0HNCGAVIS13KT" received FIN.
+2025-05-11 09:50:18.959 +03:00 [DBG] Connection id "0HNCGAVIS13KU" disconnecting.
+2025-05-11 09:50:18.961 +03:00 [DBG] Connection id "0HNCGAVIS13KT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:18.963 +03:00 [DBG] Connection id "0HNCGAVIS13KU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:18.964 +03:00 [DBG] Connection id "0HNCGAVIS13KT" disconnecting.
+2025-05-11 09:50:18.967 +03:00 [DBG] Connection id "0HNCGAVIS13KT" stopped.
+2025-05-11 09:50:18.971 +03:00 [DBG] Connection id "0HNCGAVIS13KU" stopped.
+2025-05-11 09:50:29.019 +03:00 [DBG] Connection id "0HNCGAVIS13KV" accepted.
+2025-05-11 09:50:29.020 +03:00 [DBG] Connection id "0HNCGAVIS13KV" started.
+2025-05-11 09:50:29.022 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - null null
+2025-05-11 09:50:29.026 +03:00 [DBG] No candidates found for the request path '/wwwroot/images/products/product-1.png'
+2025-05-11 09:50:29.028 +03:00 [DBG] Connection id "0HNCGAVIS13L0" accepted.
+2025-05-11 09:50:29.030 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:50:29.032 +03:00 [DBG] Connection id "0HNCGAVIS13L0" started.
+2025-05-11 09:50:29.034 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:50:29.036 +03:00 [DBG] Connection id "0HNCGAVIS13KV" completed keep alive response.
+2025-05-11 09:50:29.038 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - 404 0 null 15.3259ms
+2025-05-11 09:50:29.041 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/wwwroot/images/products/product-1.png, Response status code: 404
+2025-05-11 09:50:39.008 +03:00 [DBG] Connection id "0HNCGAVIS13L0" received FIN.
+2025-05-11 09:50:39.008 +03:00 [DBG] Connection id "0HNCGAVIS13KV" received FIN.
+2025-05-11 09:50:39.010 +03:00 [DBG] Connection id "0HNCGAVIS13L0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:39.015 +03:00 [DBG] Connection id "0HNCGAVIS13KV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:50:39.017 +03:00 [DBG] Connection id "0HNCGAVIS13L0" disconnecting.
+2025-05-11 09:50:39.021 +03:00 [DBG] Connection id "0HNCGAVIS13KV" disconnecting.
+2025-05-11 09:50:39.022 +03:00 [DBG] Connection id "0HNCGAVIS13L0" stopped.
+2025-05-11 09:50:39.023 +03:00 [DBG] Connection id "0HNCGAVIS13KV" stopped.
+2025-05-11 09:51:24.711 +03:00 [DBG] Connection id "0HNCGAVIS13L1" accepted.
+2025-05-11 09:51:24.715 +03:00 [DBG] Connection id "0HNCGAVIS13L1" started.
+2025-05-11 09:51:24.718 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - null null
+2025-05-11 09:51:24.722 +03:00 [DBG] Connection id "0HNCGAVIS13L2" accepted.
+2025-05-11 09:51:24.727 +03:00 [DBG] No candidates found for the request path '/wwwroot/images/products/product-1.png'
+2025-05-11 09:51:24.740 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:24.732 +03:00 [DBG] Connection id "0HNCGAVIS13L2" started.
+2025-05-11 09:51:24.743 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:24.745 +03:00 [DBG] Connection id "0HNCGAVIS13L1" completed keep alive response.
+2025-05-11 09:51:24.748 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - 404 0 null 30.1759ms
+2025-05-11 09:51:24.755 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/wwwroot/images/products/product-1.png, Response status code: 404
+2025-05-11 09:51:25.661 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - null null
+2025-05-11 09:51:25.667 +03:00 [DBG] No candidates found for the request path '/wwwroot/images/products/product-1.png'
+2025-05-11 09:51:25.669 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:25.671 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:25.674 +03:00 [DBG] Connection id "0HNCGAVIS13L1" completed keep alive response.
+2025-05-11 09:51:25.676 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - 404 0 null 15.0285ms
+2025-05-11 09:51:25.682 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/wwwroot/images/products/product-1.png, Response status code: 404
+2025-05-11 09:51:26.170 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - null null
+2025-05-11 09:51:26.174 +03:00 [DBG] No candidates found for the request path '/wwwroot/images/products/product-1.png'
+2025-05-11 09:51:26.177 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:26.179 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:26.182 +03:00 [DBG] Connection id "0HNCGAVIS13L1" completed keep alive response.
+2025-05-11 09:51:26.185 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/wwwroot/images/products/product-1.png - 404 0 null 15.4609ms
+2025-05-11 09:51:26.191 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/wwwroot/images/products/product-1.png, Response status code: 404
+2025-05-11 09:51:29.079 +03:00 [DBG] Connection id "0HNCGAVIS13L2" received FIN.
+2025-05-11 09:51:29.079 +03:00 [DBG] Connection id "0HNCGAVIS13L1" received FIN.
+2025-05-11 09:51:29.082 +03:00 [DBG] Connection id "0HNCGAVIS13L2" disconnecting.
+2025-05-11 09:51:29.085 +03:00 [DBG] Connection id "0HNCGAVIS13L1" disconnecting.
+2025-05-11 09:51:29.091 +03:00 [DBG] Connection id "0HNCGAVIS13L2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:51:29.093 +03:00 [DBG] Connection id "0HNCGAVIS13L1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:51:29.110 +03:00 [DBG] Connection id "0HNCGAVIS13L2" stopped.
+2025-05-11 09:51:29.110 +03:00 [DBG] Connection id "0HNCGAVIS13L1" stopped.
+2025-05-11 09:51:29.394 +03:00 [DBG] Connection id "0HNCGAVIS13L3" accepted.
+2025-05-11 09:51:29.396 +03:00 [DBG] Connection id "0HNCGAVIS13L3" started.
+2025-05-11 09:51:29.397 +03:00 [DBG] Connection id "0HNCGAVIS13L4" accepted.
+2025-05-11 09:51:29.399 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/images/products/product-1.png - null null
+2025-05-11 09:51:29.401 +03:00 [DBG] Connection id "0HNCGAVIS13L4" started.
+2025-05-11 09:51:29.405 +03:00 [DBG] No candidates found for the request path '/images/products/product-1.png'
+2025-05-11 09:51:29.409 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:29.411 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:29.413 +03:00 [DBG] Connection id "0HNCGAVIS13L3" completed keep alive response.
+2025-05-11 09:51:29.416 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/images/products/product-1.png - 404 0 null 16.4837ms
+2025-05-11 09:51:29.422 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/images/products/product-1.png, Response status code: 404
+2025-05-11 09:51:34.693 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/images/Products/Product-1.png - null null
+2025-05-11 09:51:34.697 +03:00 [DBG] No candidates found for the request path '/images/Products/Product-1.png'
+2025-05-11 09:51:34.699 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:34.700 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:34.703 +03:00 [DBG] Connection id "0HNCGAVIS13L3" completed keep alive response.
+2025-05-11 09:51:34.705 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/images/Products/Product-1.png - 404 0 null 11.9859ms
+2025-05-11 09:51:34.715 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/images/Products/Product-1.png, Response status code: 404
+2025-05-11 09:51:48.550 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-11 09:51:48.724 +03:00 [DBG] Hosting starting
+2025-05-11 09:51:48.901 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-11 09:51:48.908 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-11 09:51:48.998 +03:00 [INF] Now listening on: http://localhost:5179
+2025-05-11 09:51:49.000 +03:00 [DBG] Loaded hosting startup assembly Backend-lection-EF
+2025-05-11 09:51:49.002 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 09:51:49.003 +03:00 [INF] Hosting environment: Development
+2025-05-11 09:51:49.004 +03:00 [INF] Content root path: C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF
+2025-05-11 09:51:49.005 +03:00 [DBG] Hosting started
+2025-05-11 09:51:51.272 +03:00 [DBG] Connection id "0HNCGB17FB444" accepted.
+2025-05-11 09:51:51.276 +03:00 [DBG] Connection id "0HNCGB17FB444" started.
+2025-05-11 09:51:51.277 +03:00 [DBG] Connection id "0HNCGB17FB445" accepted.
+2025-05-11 09:51:51.283 +03:00 [DBG] Connection id "0HNCGB17FB445" started.
+2025-05-11 09:51:51.364 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/images/Products/Product-1.png - null null
+2025-05-11 09:51:51.396 +03:00 [DBG] No candidates found for the request path '/images/Products/Product-1.png'
+2025-05-11 09:51:51.398 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:51.410 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:51.480 +03:00 [INF] Sending file. Request path: '/images/Products/Product-1.png'. Physical path: 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\Images\Products\product-1.png'
+2025-05-11 09:51:51.486 +03:00 [DBG] Connection id "0HNCGB17FB444" completed keep alive response.
+2025-05-11 09:51:51.490 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/images/Products/Product-1.png - 200 188933 image/png 135.3157ms
+2025-05-11 09:51:51.546 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/favicon.ico - null null
+2025-05-11 09:51:51.551 +03:00 [DBG] No candidates found for the request path '/favicon.ico'
+2025-05-11 09:51:51.553 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:51.556 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:51.560 +03:00 [DBG] The request path /favicon.ico does not match an existing file
+2025-05-11 09:51:51.563 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-11 09:51:51.566 +03:00 [DBG] Connection id "0HNCGB17FB444" completed keep alive response.
+2025-05-11 09:51:51.569 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/favicon.ico - 404 0 null 23.1296ms
+2025-05-11 09:51:51.573 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/favicon.ico, Response status code: 404
+2025-05-11 09:51:58.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/images/products/product-1.png - null null
+2025-05-11 09:51:58.974 +03:00 [DBG] No candidates found for the request path '/images/products/product-1.png'
+2025-05-11 09:51:58.975 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:51:58.978 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:51:58.984 +03:00 [INF] Sending file. Request path: '/images/products/product-1.png'. Physical path: 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\Images\Products\product-1.png'
+2025-05-11 09:51:58.988 +03:00 [DBG] Connection id "0HNCGB17FB444" completed keep alive response.
+2025-05-11 09:51:58.993 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/images/products/product-1.png - 200 188933 image/png 23.6317ms
+2025-05-11 09:51:59.133 +03:00 [DBG] Connection id "0HNCGB17FB445" received FIN.
+2025-05-11 09:51:59.134 +03:00 [DBG] Connection id "0HNCGB17FB444" received FIN.
+2025-05-11 09:51:59.136 +03:00 [DBG] Connection id "0HNCGB17FB445" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:51:59.137 +03:00 [DBG] Connection id "0HNCGB17FB444" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:51:59.171 +03:00 [DBG] Connection id "0HNCGB17FB445" disconnecting.
+2025-05-11 09:51:59.172 +03:00 [DBG] Connection id "0HNCGB17FB444" disconnecting.
+2025-05-11 09:51:59.176 +03:00 [DBG] Connection id "0HNCGB17FB445" stopped.
+2025-05-11 09:51:59.181 +03:00 [DBG] Connection id "0HNCGB17FB444" stopped.
+2025-05-11 09:58:31.892 +03:00 [DBG] Connection id "0HNCGB17FB446" accepted.
+2025-05-11 09:58:31.928 +03:00 [DBG] Connection id "0HNCGB17FB447" accepted.
+2025-05-11 09:58:31.961 +03:00 [DBG] Connection id "0HNCGB17FB446" started.
+2025-05-11 09:58:31.968 +03:00 [DBG] Connection id "0HNCGB17FB447" started.
+2025-05-11 09:58:31.972 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/ts/catalog.component.ts - null null
+2025-05-11 09:58:31.977 +03:00 [DBG] No candidates found for the request path '/ts/catalog.component.ts'
+2025-05-11 09:58:31.978 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:58:31.981 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:58:31.990 +03:00 [INF] Sending file. Request path: '/ts/catalog.component.ts'. Physical path: 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\ts\catalog.component.ts'
+2025-05-11 09:58:31.993 +03:00 [DBG] Connection id "0HNCGB17FB446" completed keep alive response.
+2025-05-11 09:58:31.995 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/ts/catalog.component.ts - 200 7998 video/vnd.dlna.mpeg-tts 23.8441ms
+2025-05-11 09:58:39.771 +03:00 [DBG] Connection id "0HNCGB17FB447" received FIN.
+2025-05-11 09:58:39.771 +03:00 [DBG] Connection id "0HNCGB17FB446" received FIN.
+2025-05-11 09:58:39.772 +03:00 [DBG] Connection id "0HNCGB17FB447" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:58:39.775 +03:00 [DBG] Connection id "0HNCGB17FB446" disconnecting.
+2025-05-11 09:58:39.782 +03:00 [DBG] Connection id "0HNCGB17FB447" disconnecting.
+2025-05-11 09:58:39.786 +03:00 [DBG] Connection id "0HNCGB17FB446" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:58:39.787 +03:00 [DBG] Connection id "0HNCGB17FB447" stopped.
+2025-05-11 09:58:39.800 +03:00 [DBG] Connection id "0HNCGB17FB446" stopped.
+2025-05-11 09:58:43.461 +03:00 [DBG] Connection id "0HNCGB17FB448" accepted.
+2025-05-11 09:58:43.462 +03:00 [DBG] Connection id "0HNCGB17FB448" started.
+2025-05-11 09:58:43.464 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-11 09:58:43.468 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-05-11 09:58:43.470 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 09:58:43.471 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 09:58:43.472 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-05-11 09:58:43.474 +03:00 [DBG] Connection id "0HNCGB17FB448" completed keep alive response.
+2025-05-11 09:58:43.477 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 12.1902ms
+2025-05-11 09:58:43.480 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-11 09:58:49.777 +03:00 [DBG] Connection id "0HNCGB17FB448" received FIN.
+2025-05-11 09:58:49.780 +03:00 [DBG] Connection id "0HNCGB17FB448" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 09:58:49.782 +03:00 [DBG] Connection id "0HNCGB17FB448" disconnecting.
+2025-05-11 09:58:49.783 +03:00 [DBG] Connection id "0HNCGB17FB448" stopped.
+2025-05-11 10:28:41.355 +03:00 [DBG] Connection id "0HNCGB17FB449" accepted.
+2025-05-11 10:28:41.398 +03:00 [DBG] Connection id "0HNCGB17FB449" started.
+2025-05-11 10:28:41.398 +03:00 [DBG] Connection id "0HNCGB17FB44A" accepted.
+2025-05-11 10:28:41.427 +03:00 [DBG] Connection id "0HNCGB17FB44A" started.
+2025-05-11 10:28:41.427 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/ts/catalog.component.ts - null null
+2025-05-11 10:28:41.462 +03:00 [DBG] No candidates found for the request path '/ts/catalog.component.ts'
+2025-05-11 10:28:41.463 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:28:41.464 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:28:41.493 +03:00 [INF] The file /ts/catalog.component.ts was not modified
+2025-05-11 10:28:41.510 +03:00 [DBG] Handled. Status code: 304 File: /ts/catalog.component.ts
+2025-05-11 10:28:41.512 +03:00 [DBG] Connection id "0HNCGB17FB449" completed keep alive response.
+2025-05-11 10:28:41.514 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/ts/catalog.component.ts - 304 null video/vnd.dlna.mpeg-tts 112.4851ms
+2025-05-11 10:29:07.750 +03:00 [DBG] Connection id "0HNCGB17FB44A" received FIN.
+2025-05-11 10:29:07.782 +03:00 [DBG] Connection id "0HNCGB17FB449" received FIN.
+2025-05-11 10:29:07.784 +03:00 [DBG] Connection id "0HNCGB17FB44A" disconnecting.
+2025-05-11 10:29:07.815 +03:00 [DBG] Connection id "0HNCGB17FB449" disconnecting.
+2025-05-11 10:29:07.822 +03:00 [DBG] Connection id "0HNCGB17FB44A" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:29:07.823 +03:00 [DBG] Connection id "0HNCGB17FB449" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:29:07.827 +03:00 [DBG] Connection id "0HNCGB17FB449" stopped.
+2025-05-11 10:29:07.830 +03:00 [DBG] Connection id "0HNCGB17FB44A" stopped.
+2025-05-11 10:29:16.539 +03:00 [DBG] Connection id "0HNCGB17FB44B" accepted.
+2025-05-11 10:29:16.542 +03:00 [DBG] Connection id "0HNCGB17FB44B" started.
+2025-05-11 10:29:16.543 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/css/catalog.component.css - null null
+2025-05-11 10:29:16.544 +03:00 [DBG] Connection id "0HNCGB17FB44C" accepted.
+2025-05-11 10:29:16.547 +03:00 [DBG] No candidates found for the request path '/css/catalog.component.css'
+2025-05-11 10:29:16.549 +03:00 [DBG] Connection id "0HNCGB17FB44C" started.
+2025-05-11 10:29:16.550 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:29:16.553 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:29:16.555 +03:00 [DBG] The request path /css/catalog.component.css does not match an existing file
+2025-05-11 10:29:16.558 +03:00 [DBG] Connection id "0HNCGB17FB44B" completed keep alive response.
+2025-05-11 10:29:16.559 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/css/catalog.component.css - 404 0 null 16.082ms
+2025-05-11 10:29:16.563 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/css/catalog.component.css, Response status code: 404
+2025-05-11 10:29:28.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/css/catalog.component.scss - null null
+2025-05-11 10:29:28.826 +03:00 [DBG] No candidates found for the request path '/css/catalog.component.scss'
+2025-05-11 10:29:28.829 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:29:28.830 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:29:28.832 +03:00 [DBG] The request path /css/catalog.component.scss does not match a supported file type
+2025-05-11 10:29:28.834 +03:00 [DBG] Connection id "0HNCGB17FB44B" completed keep alive response.
+2025-05-11 10:29:28.836 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/css/catalog.component.scss - 404 0 null 13.8155ms
+2025-05-11 10:29:28.841 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/css/catalog.component.scss, Response status code: 404
+2025-05-11 10:29:53.598 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/css/catalog.component.scss - null null
+2025-05-11 10:29:53.608 +03:00 [DBG] No candidates found for the request path '/css/catalog.component.scss'
+2025-05-11 10:29:53.609 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:29:53.610 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:29:53.611 +03:00 [DBG] The request path /css/catalog.component.scss does not match a supported file type
+2025-05-11 10:29:53.613 +03:00 [DBG] Connection id "0HNCGB17FB44B" completed keep alive response.
+2025-05-11 10:29:53.615 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/css/catalog.component.scss - 404 0 null 16.9012ms
+2025-05-11 10:29:53.620 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/css/catalog.component.scss, Response status code: 404
+2025-05-11 10:30:37.843 +03:00 [DBG] Connection id "0HNCGB17FB44C" received FIN.
+2025-05-11 10:30:37.844 +03:00 [DBG] Connection id "0HNCGB17FB44B" received FIN.
+2025-05-11 10:30:37.846 +03:00 [DBG] Connection id "0HNCGB17FB44C" disconnecting.
+2025-05-11 10:30:37.854 +03:00 [DBG] Connection id "0HNCGB17FB44B" disconnecting.
+2025-05-11 10:30:37.881 +03:00 [DBG] Connection id "0HNCGB17FB44C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:30:37.883 +03:00 [DBG] Connection id "0HNCGB17FB44B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:30:37.895 +03:00 [DBG] Connection id "0HNCGB17FB44B" stopped.
+2025-05-11 10:30:37.895 +03:00 [DBG] Connection id "0HNCGB17FB44C" stopped.
+2025-05-11 10:31:21.758 +03:00 [DBG] Connection id "0HNCGB17FB44D" accepted.
+2025-05-11 10:31:21.793 +03:00 [DBG] Connection id "0HNCGB17FB44D" started.
+2025-05-11 10:31:21.796 +03:00 [DBG] Connection id "0HNCGB17FB44E" accepted.
+2025-05-11 10:31:21.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Css/catalog.component.scss - null null
+2025-05-11 10:31:21.824 +03:00 [DBG] Connection id "0HNCGB17FB44E" started.
+2025-05-11 10:31:21.828 +03:00 [DBG] No candidates found for the request path '/Css/catalog.component.scss'
+2025-05-11 10:31:21.830 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:31:21.832 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:31:21.834 +03:00 [DBG] The request path /Css/catalog.component.scss does not match a supported file type
+2025-05-11 10:31:21.835 +03:00 [DBG] Connection id "0HNCGB17FB44D" completed keep alive response.
+2025-05-11 10:31:21.838 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Css/catalog.component.scss - 404 0 null 15.6071ms
+2025-05-11 10:31:21.843 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/Css/catalog.component.scss, Response status code: 404
+2025-05-11 10:31:27.896 +03:00 [DBG] Connection id "0HNCGB17FB44D" received FIN.
+2025-05-11 10:31:27.897 +03:00 [DBG] Connection id "0HNCGB17FB44E" received FIN.
+2025-05-11 10:31:27.900 +03:00 [DBG] Connection id "0HNCGB17FB44D" disconnecting.
+2025-05-11 10:31:27.902 +03:00 [DBG] Connection id "0HNCGB17FB44E" disconnecting.
+2025-05-11 10:31:27.908 +03:00 [DBG] Connection id "0HNCGB17FB44D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:31:27.909 +03:00 [DBG] Connection id "0HNCGB17FB44E" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:31:27.926 +03:00 [DBG] Connection id "0HNCGB17FB44D" stopped.
+2025-05-11 10:31:27.926 +03:00 [DBG] Connection id "0HNCGB17FB44E" stopped.
+2025-05-11 10:31:42.469 +03:00 [DBG] Connection id "0HNCGB17FB44F" accepted.
+2025-05-11 10:31:42.471 +03:00 [DBG] Connection id "0HNCGB17FB44F" started.
+2025-05-11 10:31:42.473 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Css/catalog.component.css - null null
+2025-05-11 10:31:42.477 +03:00 [DBG] Connection id "0HNCGB17FB44G" accepted.
+2025-05-11 10:31:42.477 +03:00 [DBG] No candidates found for the request path '/Css/catalog.component.css'
+2025-05-11 10:31:42.480 +03:00 [DBG] Connection id "0HNCGB17FB44G" started.
+2025-05-11 10:31:42.482 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:31:42.485 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:31:42.494 +03:00 [INF] Sending file. Request path: '/Css/catalog.component.css'. Physical path: 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\Css\catalog.component.css'
+2025-05-11 10:31:42.497 +03:00 [DBG] Connection id "0HNCGB17FB44F" completed keep alive response.
+2025-05-11 10:31:42.499 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Css/catalog.component.css - 200 4192 text/css 25.8839ms
+2025-05-11 10:31:47.942 +03:00 [DBG] Connection id "0HNCGB17FB44G" received FIN.
+2025-05-11 10:31:47.942 +03:00 [DBG] Connection id "0HNCGB17FB44F" received FIN.
+2025-05-11 10:31:47.946 +03:00 [DBG] Connection id "0HNCGB17FB44G" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:31:47.948 +03:00 [DBG] Connection id "0HNCGB17FB44F" disconnecting.
+2025-05-11 10:31:47.952 +03:00 [DBG] Connection id "0HNCGB17FB44G" disconnecting.
+2025-05-11 10:31:47.964 +03:00 [DBG] Connection id "0HNCGB17FB44F" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:31:47.966 +03:00 [DBG] Connection id "0HNCGB17FB44G" stopped.
+2025-05-11 10:31:47.975 +03:00 [DBG] Connection id "0HNCGB17FB44F" stopped.
+2025-05-11 10:35:51.023 +03:00 [DBG] Connection id "0HNCGB17FB44H" accepted.
+2025-05-11 10:35:51.064 +03:00 [DBG] Connection id "0HNCGB17FB44H" started.
+2025-05-11 10:35:51.064 +03:00 [DBG] Connection id "0HNCGB17FB44I" accepted.
+2025-05-11 10:35:51.072 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/Css/main.css - null null
+2025-05-11 10:35:51.106 +03:00 [DBG] Connection id "0HNCGB17FB44I" started.
+2025-05-11 10:35:51.113 +03:00 [DBG] No candidates found for the request path '/Css/main.css'
+2025-05-11 10:35:51.115 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:35:51.116 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:35:51.120 +03:00 [INF] Sending file. Request path: '/Css/main.css'. Physical path: 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\Css\main.css'
+2025-05-11 10:35:51.122 +03:00 [DBG] Connection id "0HNCGB17FB44H" completed keep alive response.
+2025-05-11 10:35:51.124 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/Css/main.css - 200 872 text/css 52.5652ms
+2025-05-11 10:35:58.298 +03:00 [DBG] Connection id "0HNCGB17FB44I" received FIN.
+2025-05-11 10:35:58.298 +03:00 [DBG] Connection id "0HNCGB17FB44H" received FIN.
+2025-05-11 10:35:58.300 +03:00 [DBG] Connection id "0HNCGB17FB44I" disconnecting.
+2025-05-11 10:35:58.305 +03:00 [DBG] Connection id "0HNCGB17FB44H" disconnecting.
+2025-05-11 10:35:58.312 +03:00 [DBG] Connection id "0HNCGB17FB44I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:35:58.313 +03:00 [DBG] Connection id "0HNCGB17FB44H" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:35:58.324 +03:00 [DBG] Connection id "0HNCGB17FB44I" stopped.
+2025-05-11 10:35:58.328 +03:00 [DBG] Connection id "0HNCGB17FB44H" stopped.
+2025-05-11 10:41:04.880 +03:00 [DBG] Connection id "0HNCGB17FB44J" accepted.
+2025-05-11 10:41:04.926 +03:00 [DBG] Connection id "0HNCGB17FB44J" started.
+2025-05-11 10:41:04.926 +03:00 [DBG] Connection id "0HNCGB17FB44K" accepted.
+2025-05-11 10:41:04.931 +03:00 [DBG] Connection id "0HNCGB17FB44K" started.
+2025-05-11 10:41:04.931 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/api/getCss/main - null null
+2025-05-11 10:41:04.967 +03:00 [DBG] No candidates found for the request path '/api/getCss/main'
+2025-05-11 10:41:04.968 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:41:04.970 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:41:04.971 +03:00 [DBG] The request path /api/getCss/main does not match a supported file type
+2025-05-11 10:41:04.974 +03:00 [DBG] Connection id "0HNCGB17FB44J" completed keep alive response.
+2025-05-11 10:41:04.975 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/api/getCss/main - 404 0 null 45.3589ms
+2025-05-11 10:41:04.979 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/api/getCss/main, Response status code: 404
+2025-05-11 10:41:08.766 +03:00 [DBG] Connection id "0HNCGB17FB44J" received FIN.
+2025-05-11 10:41:08.766 +03:00 [DBG] Connection id "0HNCGB17FB44K" received FIN.
+2025-05-11 10:41:08.769 +03:00 [DBG] Connection id "0HNCGB17FB44J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:41:08.773 +03:00 [DBG] Connection id "0HNCGB17FB44K" disconnecting.
+2025-05-11 10:41:08.779 +03:00 [DBG] Connection id "0HNCGB17FB44J" disconnecting.
+2025-05-11 10:41:08.787 +03:00 [DBG] Connection id "0HNCGB17FB44K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:41:08.789 +03:00 [DBG] Connection id "0HNCGB17FB44J" stopped.
+2025-05-11 10:41:08.796 +03:00 [DBG] Connection id "0HNCGB17FB44K" stopped.
+2025-05-11 10:41:26.802 +03:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-05-11 10:41:26.990 +03:00 [DBG] Hosting starting
+2025-05-11 10:41:27.150 +03:00 [DBG] Middleware configuration started with options: {AllowedHosts = *, AllowEmptyHosts = True, IncludeFailureMessage = True}
+2025-05-11 10:41:27.155 +03:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-05-11 10:41:27.254 +03:00 [INF] Now listening on: http://localhost:5179
+2025-05-11 10:41:27.256 +03:00 [DBG] Loaded hosting startup assembly Backend-lection-EF
+2025-05-11 10:41:27.259 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-11 10:41:27.261 +03:00 [INF] Hosting environment: Development
+2025-05-11 10:41:27.263 +03:00 [INF] Content root path: C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF
+2025-05-11 10:41:27.265 +03:00 [DBG] Hosting started
+2025-05-11 10:41:36.434 +03:00 [DBG] Connection id "0HNCGBT1428TU" accepted.
+2025-05-11 10:41:36.445 +03:00 [DBG] Connection id "0HNCGBT1428TU" started.
+2025-05-11 10:41:36.446 +03:00 [DBG] Connection id "0HNCGBT1428TV" accepted.
+2025-05-11 10:41:36.448 +03:00 [DBG] Connection id "0HNCGBT1428TV" started.
+2025-05-11 10:41:36.746 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/api/getCss/main - null null
+2025-05-11 10:41:36.771 +03:00 [DBG] 1 candidate(s) found for the request path '/api/getCss/main'
+2025-05-11 10:41:36.778 +03:00 [DBG] Endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)' with route pattern 'api/GetCss/{fileName}' is valid for the request path '/api/getCss/main'
+2025-05-11 10:41:36.782 +03:00 [DBG] Request matched endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:41:36.794 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:41:36.795 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:41:36.797 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-11 10:41:36.799 +03:00 [INF] Executing endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:41:36.828 +03:00 [INF] Route matched with {action = "GetCss", controller = "App"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCss(System.String) on controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF).
+2025-05-11 10:41:36.835 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-11 10:41:36.838 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-11 10:41:36.840 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-11 10:41:36.842 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-11 10:41:36.844 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-11 10:41:36.848 +03:00 [DBG] Executing controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:41:36.935 +03:00 [DBG] Executed controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:41:36.953 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:41:36.956 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' using the name 'fileName' in request data ...
+2025-05-11 10:41:36.959 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:41:36.961 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:41:36.962 +03:00 [DBG] Attempting to validate the bound parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:41:36.969 +03:00 [DBG] Done attempting to validate the bound parameter 'fileName' of type 'System.String'.
+2025-05-11 10:41:36.975 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-11 10:41:36.979 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-11 10:41:36.980 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-05-11 10:41:36.983 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-05-11 10:41:36.984 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-05-11 10:41:37.034 +03:00 [INF] Executed action Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF) in 185.7341ms
+2025-05-11 10:41:37.039 +03:00 [INF] Executed endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:41:37.041 +03:00 [DBG] Connection id "0HNCGBT1428TU" completed keep alive response.
+2025-05-11 10:41:37.048 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/api/getCss/main - 404 null application/problem+json; charset=utf-8 310.1326ms
+2025-05-11 10:41:38.819 +03:00 [DBG] Connection id "0HNCGBT1428TU" received FIN.
+2025-05-11 10:41:38.819 +03:00 [DBG] Connection id "0HNCGBT1428TV" received FIN.
+2025-05-11 10:41:38.830 +03:00 [DBG] Connection id "0HNCGBT1428TU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:41:38.830 +03:00 [DBG] Connection id "0HNCGBT1428TV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:41:38.837 +03:00 [DBG] Connection id "0HNCGBT1428TU" disconnecting.
+2025-05-11 10:41:38.841 +03:00 [DBG] Connection id "0HNCGBT1428TV" disconnecting.
+2025-05-11 10:41:38.845 +03:00 [DBG] Connection id "0HNCGBT1428TU" stopped.
+2025-05-11 10:41:38.845 +03:00 [DBG] Connection id "0HNCGBT1428TV" stopped.
+2025-05-11 10:41:49.137 +03:00 [DBG] Connection id "0HNCGBT1428U0" accepted.
+2025-05-11 10:41:49.139 +03:00 [DBG] Connection id "0HNCGBT1428U0" started.
+2025-05-11 10:41:49.141 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-11 10:41:49.146 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-05-11 10:41:49.147 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:41:49.151 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:41:49.171 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-05-11 10:41:49.174 +03:00 [DBG] Connection id "0HNCGBT1428U0" completed keep alive response.
+2025-05-11 10:41:49.176 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 34.3507ms
+2025-05-11 10:41:49.182 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-11 10:41:58.835 +03:00 [DBG] Connection id "0HNCGBT1428U0" received FIN.
+2025-05-11 10:41:58.837 +03:00 [DBG] Connection id "0HNCGBT1428U0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:41:58.841 +03:00 [DBG] Connection id "0HNCGBT1428U0" disconnecting.
+2025-05-11 10:41:58.842 +03:00 [DBG] Connection id "0HNCGBT1428U0" stopped.
+2025-05-11 10:42:04.789 +03:00 [DBG] Connection id "0HNCGBT1428U1" accepted.
+2025-05-11 10:42:04.791 +03:00 [DBG] Connection id "0HNCGBT1428U1" started.
+2025-05-11 10:42:04.792 +03:00 [DBG] Connection id "0HNCGBT1428U2" accepted.
+2025-05-11 10:42:04.793 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/api/getCss/main - null null
+2025-05-11 10:42:04.794 +03:00 [DBG] Connection id "0HNCGBT1428U2" started.
+2025-05-11 10:42:04.799 +03:00 [DBG] 1 candidate(s) found for the request path '/api/getCss/main'
+2025-05-11 10:42:04.801 +03:00 [DBG] Endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)' with route pattern 'api/GetCss/{fileName}' is valid for the request path '/api/getCss/main'
+2025-05-11 10:42:04.802 +03:00 [DBG] Request matched endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:04.804 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:42:04.805 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:42:04.806 +03:00 [INF] Executing endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:04.807 +03:00 [INF] Route matched with {action = "GetCss", controller = "App"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCss(System.String) on controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF).
+2025-05-11 10:42:04.809 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-11 10:42:04.811 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-11 10:42:04.812 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-11 10:42:04.814 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-11 10:42:04.815 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-11 10:42:04.817 +03:00 [DBG] Executing controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:42:04.821 +03:00 [DBG] Executed controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:42:04.823 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:42:04.825 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' using the name 'fileName' in request data ...
+2025-05-11 10:42:04.826 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:04.827 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:04.829 +03:00 [DBG] Attempting to validate the bound parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:42:04.830 +03:00 [DBG] Done attempting to validate the bound parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:04.832 +03:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-05-11 10:42:04.835 +03:00 [DBG] No information found on request to perform content negotiation.
+2025-05-11 10:42:04.836 +03:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-05-11 10:42:04.839 +03:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-05-11 10:42:04.840 +03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2025-05-11 10:42:04.841 +03:00 [INF] Executed action Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF) in 24.7699ms
+2025-05-11 10:42:04.843 +03:00 [INF] Executed endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:04.844 +03:00 [DBG] Connection id "0HNCGBT1428U1" completed keep alive response.
+2025-05-11 10:42:04.846 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/api/getCss/main - 404 null application/problem+json; charset=utf-8 52.5109ms
+2025-05-11 10:42:04.875 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-11 10:42:04.880 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-05-11 10:42:04.882 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:42:04.884 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:42:04.887 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-05-11 10:42:04.889 +03:00 [DBG] Connection id "0HNCGBT1428U1" completed keep alive response.
+2025-05-11 10:42:04.890 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 15.5965ms
+2025-05-11 10:42:04.895 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-11 10:42:08.846 +03:00 [DBG] Connection id "0HNCGBT1428U2" received FIN.
+2025-05-11 10:42:08.846 +03:00 [DBG] Connection id "0HNCGBT1428U1" received FIN.
+2025-05-11 10:42:08.849 +03:00 [DBG] Connection id "0HNCGBT1428U2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:08.850 +03:00 [DBG] Connection id "0HNCGBT1428U1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:08.852 +03:00 [DBG] Connection id "0HNCGBT1428U2" disconnecting.
+2025-05-11 10:42:08.853 +03:00 [DBG] Connection id "0HNCGBT1428U1" disconnecting.
+2025-05-11 10:42:08.853 +03:00 [DBG] Connection id "0HNCGBT1428U2" stopped.
+2025-05-11 10:42:08.854 +03:00 [DBG] Connection id "0HNCGBT1428U1" stopped.
+2025-05-11 10:42:13.055 +03:00 [DBG] Connection id "0HNCGBT1428U3" accepted.
+2025-05-11 10:42:13.057 +03:00 [DBG] Connection id "0HNCGBT1428U3" started.
+2025-05-11 10:42:13.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/api/getCss/main.css - null null
+2025-05-11 10:42:13.061 +03:00 [DBG] Connection id "0HNCGBT1428U4" accepted.
+2025-05-11 10:42:13.063 +03:00 [DBG] 1 candidate(s) found for the request path '/api/getCss/main.css'
+2025-05-11 10:42:13.065 +03:00 [DBG] Connection id "0HNCGBT1428U4" started.
+2025-05-11 10:42:13.067 +03:00 [DBG] Endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)' with route pattern 'api/GetCss/{fileName}' is valid for the request path '/api/getCss/main.css'
+2025-05-11 10:42:13.072 +03:00 [DBG] Request matched endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:13.074 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:42:13.075 +03:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-05-11 10:42:13.077 +03:00 [INF] Executing endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:13.079 +03:00 [INF] Route matched with {action = "GetCss", controller = "App"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetCss(System.String) on controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF).
+2025-05-11 10:42:13.082 +03:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-05-11 10:42:13.085 +03:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-05-11 10:42:13.087 +03:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-05-11 10:42:13.089 +03:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-05-11 10:42:13.093 +03:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-05-11 10:42:13.095 +03:00 [DBG] Executing controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:42:13.098 +03:00 [DBG] Executed controller factory for controller Backend_lection_EF.Controllers.AppController (Backend-lection-EF)
+2025-05-11 10:42:13.101 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:42:13.103 +03:00 [DBG] Attempting to bind parameter 'fileName' of type 'System.String' using the name 'fileName' in request data ...
+2025-05-11 10:42:13.105 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:13.108 +03:00 [DBG] Done attempting to bind parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:13.110 +03:00 [DBG] Attempting to validate the bound parameter 'fileName' of type 'System.String' ...
+2025-05-11 10:42:13.113 +03:00 [DBG] Done attempting to validate the bound parameter 'fileName' of type 'System.String'.
+2025-05-11 10:42:13.118 +03:00 [INF] Executing PhysicalFileResult, sending file 'C:\Users\1645284\RiderProjects\Backend-lection-EF\Backend-lection-EF\wwwroot\Css\main.css' with download name '' ...
+2025-05-11 10:42:13.128 +03:00 [DBG] The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2025-05-11 10:42:13.137 +03:00 [INF] Executed action Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF) in 42.5404ms
+2025-05-11 10:42:13.140 +03:00 [INF] Executed endpoint 'Backend_lection_EF.Controllers.AppController.GetCss (Backend-lection-EF)'
+2025-05-11 10:42:13.141 +03:00 [DBG] Connection id "0HNCGBT1428U3" completed keep alive response.
+2025-05-11 10:42:13.143 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/api/getCss/main.css - 200 872 text/css 84.2771ms
+2025-05-11 10:42:13.179 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-11 10:42:13.183 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-05-11 10:42:13.187 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:42:13.194 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:42:13.201 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-05-11 10:42:13.203 +03:00 [DBG] Connection id "0HNCGBT1428U3" completed keep alive response.
+2025-05-11 10:42:13.209 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 29.4316ms
+2025-05-11 10:42:13.273 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-11 10:42:18.865 +03:00 [DBG] Connection id "0HNCGBT1428U4" received FIN.
+2025-05-11 10:42:18.865 +03:00 [DBG] Connection id "0HNCGBT1428U3" received FIN.
+2025-05-11 10:42:18.868 +03:00 [DBG] Connection id "0HNCGBT1428U4" disconnecting.
+2025-05-11 10:42:18.869 +03:00 [DBG] Connection id "0HNCGBT1428U3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:18.871 +03:00 [DBG] Connection id "0HNCGBT1428U4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:18.873 +03:00 [DBG] Connection id "0HNCGBT1428U3" disconnecting.
+2025-05-11 10:42:18.876 +03:00 [DBG] Connection id "0HNCGBT1428U3" stopped.
+2025-05-11 10:42:18.880 +03:00 [DBG] Connection id "0HNCGBT1428U4" stopped.
+2025-05-11 10:42:27.490 +03:00 [DBG] Connection id "0HNCGBT1428U5" accepted.
+2025-05-11 10:42:27.494 +03:00 [DBG] Connection id "0HNCGBT1428U5" started.
+2025-05-11 10:42:27.494 +03:00 [DBG] Connection id "0HNCGBT1428U6" accepted.
+2025-05-11 10:42:27.497 +03:00 [DBG] Connection id "0HNCGBT1428U6" started.
+2025-05-11 10:42:27.525 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - null null
+2025-05-11 10:42:27.529 +03:00 [DBG] No candidates found for the request path '/.well-known/appspecific/com.chrome.devtools.json'
+2025-05-11 10:42:27.532 +03:00 [DBG] Request did not match any endpoints
+2025-05-11 10:42:27.533 +03:00 [DBG] The request path  does not match the path filter
+2025-05-11 10:42:27.536 +03:00 [DBG] The request path /.well-known/appspecific/com.chrome.devtools.json does not match an existing file
+2025-05-11 10:42:27.538 +03:00 [DBG] Connection id "0HNCGBT1428U5" completed keep alive response.
+2025-05-11 10:42:27.540 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json - 404 0 null 14.5947ms
+2025-05-11 10:42:27.545 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5179/.well-known/appspecific/com.chrome.devtools.json, Response status code: 404
+2025-05-11 10:42:28.888 +03:00 [DBG] Connection id "0HNCGBT1428U6" received FIN.
+2025-05-11 10:42:28.888 +03:00 [DBG] Connection id "0HNCGBT1428U5" received FIN.
+2025-05-11 10:42:28.890 +03:00 [DBG] Connection id "0HNCGBT1428U6" disconnecting.
+2025-05-11 10:42:28.892 +03:00 [DBG] Connection id "0HNCGBT1428U5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:28.894 +03:00 [DBG] Connection id "0HNCGBT1428U6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-05-11 10:42:28.896 +03:00 [DBG] Connection id "0HNCGBT1428U5" disconnecting.
+2025-05-11 10:42:28.899 +03:00 [DBG] Connection id "0HNCGBT1428U5" stopped.
+2025-05-11 10:42:28.904 +03:00 [DBG] Connection id "0HNCGBT1428U6" stopped.

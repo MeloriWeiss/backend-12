@@ -29,4 +29,13 @@
         <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.2.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\Images\Products\product-1.png" />
+      <None Include="wwwroot\Images\Products\product-2.png" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <TypeScriptCompile Include="wwwroot\Ts\catalog.component.ts" />
+    </ItemGroup>
+
 </Project>
